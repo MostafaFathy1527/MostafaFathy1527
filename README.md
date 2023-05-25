@@ -7,8 +7,6 @@
 
 - 🌱 I’m currently learning **React**
 
-//- 👨‍💻 All of my projects are available at [http://moslat.me/](http://moslat.me/)
-
 - 📫 How to reach me **mostafafathy1503@gmail.com**
 
 - 📄 Know about my experiences [https://drive.google.com/uc?export=download&id=1-3UpvN40A9gPozhkK39Q4-3r7PoK4YZZ](https://drive.google.com/uc?export=download&id=1-3UpvN40A9gPozhkK39Q4-3r7PoK4YZZ)
