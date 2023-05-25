@@ -7,7 +7,7 @@
 
 - 🌱 I’m currently learning **React**
 
-- 👨‍💻 All of my projects are available at [http://moslat.me/](http://moslat.me/)
+//- 👨‍💻 All of my projects are available at [http://moslat.me/](http://moslat.me/)
 
 - 📫 How to reach me **mostafafathy1503@gmail.com**
 
