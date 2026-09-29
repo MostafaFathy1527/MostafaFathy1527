@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://mostafafathy.com/headshot.jpg" alt="Mostafa Fathy" width="120" style="border-radius: 50%" />
+  <img src="https://github.com/MostafaFathy1527.png" alt="Mostafa Fathy" width="120" style="border-radius: 50%" />
 
   <h1>Mostafa Fathy &nbsp;<span dir="rtl">مصطفي فتحي</span></h1>
   <p><strong>Learning Engineer &middot; AI Systems &middot; Full-Stack Builder</strong></p>
