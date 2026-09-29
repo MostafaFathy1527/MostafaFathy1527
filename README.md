@@ -2,8 +2,8 @@
   <img src="https://mostafafathy.com/headshot.jpg" alt="Mostafa Fathy" width="120" style="border-radius: 50%" />
 
   <h1>Mostafa Fathy &nbsp;<span dir="rtl">مصطفي فتحي</span></h1>
-  <p><strong>Head of E-Learning &middot; Full-Stack Builder &middot; AI Systems Architect</strong></p>
-  <p>Armstrong &middot; Alexandria, Egypt</p>
+  <p><strong>Learning Engineer &middot; AI Systems &middot; Full-Stack Builder</strong></p>
+  <p>Alexandria, Egypt</p>
 
   <a href="https://mostafafathy.com"><img src="https://img.shields.io/badge/Portfolio-mostafafathy.com-FFD150?style=flat-square&logo=vercel&logoColor=black" /></a>
   <a href="https://contact.mostafafathy.com"><img src="https://img.shields.io/badge/Contact%20Card-contact.mostafafathy.com-1A1A1A?style=flat-square&logo=googlepay&logoColor=FFD150" /></a>
@@ -15,36 +15,64 @@
 
 ## About me
 
-I'm the Head of E-Learning at **Armstrong** (Alexandria, Egypt), where I lead a 40-person cross-functional team of instructional designers, visual designers, LMS administrators, and AI engineers.
+Anyone can generate learning content with a model now. Almost nobody can tell you whether
+the output is any good. That gap is what I work on.
 
-My work lives at the intersection of education and engineering &mdash; I design learning systems *and* build the tools that power them.
+I head the e-learning function at an education company, leading a 40-person cross-functional
+team of instructional designers, visual designers, LMS administrators and AI engineers. My
+background is computer science, so I design the learning systems *and* write the tooling
+that runs them rather than specifying it for someone else.
 
-- 90,000+ learners served across Armstrong's digital programs
-- 95% on-time delivery rate across all production cycles
-- 99% LMS uptime maintained year-round
+- 90,000+ learners across the digital programmes I own
+- 95% on-time delivery across production cycles
+- 99% LMS uptime year-round
+- 8.5/10 average QA score, reported at executive level
+- An AI-assisted production pipeline that cut cycle time by 20%+ without lowering the bar
 - BSc Computer Science, Alexandria University (ECPC 2021 & 2022)
 
 ---
 
-## What I build
+## Masār — open source, and the one I own
 
-I treat internal tooling as a product. Everything listed here was built from scratch to solve a real problem.
+[**masar-platform**](https://github.com/MostafaFathy1527/masar-platform) ·
+[live demo](https://masar.mostafafathy.com) ·
+[the failure log](https://github.com/MostafaFathy1527/masar-platform/blob/main/docs/design/what-failed.md)
+
+A practice-first learning platform, built end to end and released publicly with its source.
+A lesson publishes at three defined depths, assessment is assembled from a blueprint rather
+than a pile of questions, and the AI content pipeline that produces the lessons ships in the
+repository with its quality gates.
+
+The most useful file in it is `what-failed.md` — fourteen defects found by trying to break
+the product rather than by reading the code, each written up with the reasoning that caused
+it. A scoring rule that paid 79% for shotgun-guessing and 77% for careful reading. A
+question bank beatable by always picking the first option. A validator that turned out to be
+locked to the one domain it had ever seen.
+
+`Next.js 16` `React 19` `TypeScript` `Prisma` `PostgreSQL` `Python` `Tailwind 4`
+
+---
+
+## What else I build
+
+I treat internal tooling as a product. Everything here was built from scratch to solve a
+real problem. Source for these is internal; the READMEs document architecture, decisions
+and outcomes.
 
 | Project | Stack | What it does |
 |---------|-------|-------------|
-| [armstrong-hr-os](https://github.com/MostafaFathy1527/armstrong-hr-os) | Next.js 16 &middot; React 19 &middot; Supabase &middot; TypeScript | 4-tier RBAC HR platform &mdash; attendance, payroll, leave, org chart |
-| [armstrong-kpi](https://github.com/MostafaFathy1527/armstrong-kpi) | Next.js &middot; Prisma &middot; PostgreSQL &middot; Docker | Quarterly KPI tracking across 6 departments, 51 API endpoints |
-| [armstrong-ai](https://github.com/MostafaFathy1527/armstrong-ai) | Python &middot; FastAPI &middot; LangGraph &middot; Gemini &middot; Qdrant | Multi-agent AI system powering educational content automation |
-| [armstrong-interactive-lab](https://github.com/MostafaFathy1527/armstrong-interactive-lab) | React &middot; TypeScript &middot; Vite &middot; Firebase | In-browser coding environment with Gemini-graded exercises |
-| [armstrong-check-in](https://github.com/MostafaFathy1527/armstrong-check-in) | Node.js &middot; WhatsApp API &middot; Google Cloud | Geolocation-verified field instructor attendance via WhatsApp |
-
-> All repositories are showcase-only &mdash; source code is internal. READMEs document architecture, decisions, and outcomes.
+| [multi-agent-content-pipeline](https://github.com/MostafaFathy1527/multi-agent-content-pipeline) | Python &middot; FastAPI &middot; LangGraph &middot; Gemini &middot; Qdrant | Multi-agent system for educational content automation, multimodal RAG, Arabic TTS |
+| [hr-operations-platform](https://github.com/MostafaFathy1527/hr-operations-platform) | Next.js 16 &middot; React 19 &middot; Supabase &middot; TypeScript | 4-tier RBAC HR platform &mdash; attendance, payroll, leave, org chart |
+| [interactive-coding-lab](https://github.com/MostafaFathy1527/interactive-coding-lab) | React &middot; TypeScript &middot; Vite &middot; Firebase | In-browser coding environment for an LMS, 8 languages, AI-graded exercises |
+| [kpi-tracking-system](https://github.com/MostafaFathy1527/kpi-tracking-system) | Next.js &middot; Prisma &middot; PostgreSQL &middot; Docker | Quarterly KPI tracking across six departments, 51 API endpoints |
+| [geo-verified-checkin](https://github.com/MostafaFathy1527/geo-verified-checkin) | Node.js &middot; WhatsApp API &middot; Google Cloud | Geolocation-verified field instructor attendance over WhatsApp |
 
 ---
 
 ## Writing
 
-Thoughts on EdTech, AI, and software architecture &mdash; [mostafafathy.com/writing](https://mostafafathy.com/writing)
+Applied notes on learning systems, AI and architecture &mdash;
+[mostafafathy.com/writing](https://mostafafathy.com/writing)
 
 | Article | Tags |
 |---------|------|
